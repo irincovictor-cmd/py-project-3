@@ -40,3 +40,7 @@ python -m unittest discover -s tests -v
 ## Limitations
 
 This is a classroom demonstration for **one computer**, not a networked multi-user booking portal. Public viewing means accessible without signing in on the same machine. It does not synchronize schedules across multiple PCs, send notifications, validate identities against school records, or process payments. A SQLite database stores password hashes with per-user salts, not plaintext passwords. Back up the database before significant upgrades.
+
+## Weekly timetable and room updates
+
+The public timetable supports both single-date search and a seven-day Monday–Sunday view. Administrators may load a selected room into the editor to change its code, name, category, and capacity. Capacity reductions are blocked when they would invalidate future approved reservations.
