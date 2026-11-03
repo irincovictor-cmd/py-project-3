@@ -1,1 +1,1 @@
-# Python 3.10+; Tkinter and SQLite are included with standard Windows Python.
+# Python 3.10+ standard library only (Tkinter + sqlite3).
